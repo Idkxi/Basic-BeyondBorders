@@ -246,7 +246,7 @@ img {
   content: url("/img/map.png");
   position: absolute;
   top: -10rem;
-  left: -1rem;
+  left: -12rem;
   transition: 0.5s ease;
 }
 .banner .banner_text h1{
@@ -298,6 +298,20 @@ img {
   }
 }
 
+/* TOP */
+.top{
+  background: var(--primary);
+  padding: 5rem 0;
+}
+.top h2{
+  font-size:3rem;
+  color: var(--light);
+  font-weight: 600;
+}
+.top .top_wrapper{
+  margin-top: 5rem;
+  display-grid-columns: 1fr 1fr;
+}
 /* REPEATABLE PATTERNS */
 :root{
   --primary: #004225;
@@ -321,3 +335,6 @@ img {
   color: var(--primary);
   border: 1px solid var(--primary);
 }
+
+
+
