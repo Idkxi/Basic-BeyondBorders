@@ -585,7 +585,7 @@ img {
   margin: 1rem 0;
 }
 .latest .latest_left p{
-  color: var(--light);
+  color: var(--dark);
   text-align: justify;
 }
 .latest .latest_item{
